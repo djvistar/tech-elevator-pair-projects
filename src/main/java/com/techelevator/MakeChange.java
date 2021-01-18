@@ -31,7 +31,7 @@ public class MakeChange {
 		
 		double amountTendered = Double.parseDouble(input);
 		
-		System.out.println("The change required is" + (amountTendered - billAmount));
+		System.out.println("The change required is " + (amountTendered - billAmount));
 		
 		
 		

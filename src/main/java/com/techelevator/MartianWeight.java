@@ -41,6 +41,7 @@ public class MartianWeight {
 	  	  
 	   	 System.out.println( (weights[i]) + "lbs. on earth, " + "is " + (valueAsInt * 0.378) + " lbs. on Mars!"); // prints the String Array Weights on 3 lines
 	    }
+		 
 					
 		}
 		
