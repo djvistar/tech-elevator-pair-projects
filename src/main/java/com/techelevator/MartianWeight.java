@@ -22,16 +22,26 @@ public class MartianWeight {
 
 	public static void main(String[] args) {
 
+<<<<<<< HEAD
 		Scanner myScanner = new Scanner(System.in);
 		
 		System.out.println("Please enter Earth weights in lbs space-separated: ");  // prompt user to give you weight
 		
 		String values = myScanner.nextLine();  //saves what the user types in answer
+=======
+
+		Scanner myScanner = new Scanner(System.in);
+		
+		System.out.println("Please enter Earth weights in lbs space-separated: "); // prompt user to give you weight
+		
+		String values = myScanner.nextLine(); //saves what the user types in answer
+>>>>>>> a95384adef756501915ee5ead39e5e69de82ab8a
 		
 		
 		
 		String[] weights = values.split(" "); // splits the values up when the user enters spaces between the values
 		
+<<<<<<< HEAD
 
 		
 		 for (int i = 0; i < weights.length; i++) {
@@ -45,5 +55,18 @@ public class MartianWeight {
 		}
 		
 	}
+=======
+		
+		 for (int i = 0; i < weights.length; i++) {
+	   	 
+	  	  
+	   	 int valueAsInt = Integer.parseInt(weights[i]);
+	  	  
+	   	 System.out.println( (weights[i]) + "lbs. on earth, " + "is " + (valueAsInt * 0.378) + " lbs. on Mars!"); // prints the String Array Weights on 3 lines
+	    }
+					
+		}
+		
+>>>>>>> a95384adef756501915ee5ead39e5e69de82ab8a
 
 
